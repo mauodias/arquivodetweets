@@ -91,6 +91,6 @@ def read_auth_info():
 if __name__ == '__main__':
     try:
         run(read_auth_info())
-    except KeyboardInterruption:
+    except KeyboardInterrupt:
         print('Good bye!')
         sys.exit(0)
